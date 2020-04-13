@@ -7,6 +7,7 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Sudoku", "Sudoku.vcxproj", 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "solutionoutputfiles", "solutionoutputfiles", "{C1CB450E-5FCE-4F7E-8592-DF8BF090AD9B}"
 	ProjectSection(SolutionItems) = preProject
+		sudoku.txt = sudoku.txt
 		sudoku_puzzle.txt = sudoku_puzzle.txt
 		sudoku_solution.txt = sudoku_solution.txt
 	EndProjectSection

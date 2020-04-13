@@ -22,25 +22,17 @@ Cell::~Cell()
 
 Cell::Cell()
 {
-	m_Readvalue = 0;
-	m_Check_ReadValue_Validity = false;
 
-	//Add your possible number to the vector array
-	for (int i = 1; i <= 9; ++i) {
-		m_PossibleNumber.push_back(i);
-
-
-	}
 }
 
 
 
 
-int Cell::get_candidateNumberPosition(int index) const
+int Cell::get_candidateNumberPosition(int First_CandidateNumber) const
 
 {
 
-	return m_PossibleNumber[index];
+	return m_PossibleNumber[First_CandidateNumber];
 }
 
 
@@ -76,17 +68,11 @@ bool Cell::Get__ReadValue_Validity()const
 // This will work for both the role and the column to always check for duplicate
 void Cell::set_candidates_in_cells(int newPossibleNumber)
 {
-	bool Validate_number = false;
-	for (unsigned int i = 0; i <m_PossibleNumber.size(); ++i ) 
-	{
-		if (m_PossibleNumber[i] == newPossibleNumber) {
-			Validate_number = true;
+	
+		if (find(m_PossibleNumber.begin(), m_PossibleNumber.end(), newPossibleNumber) == m_PossibleNumber.end())
+		{
+			m_PossibleNumber.push_back(newPossibleNumber);
 		}
-		
-	}
-	if (Validate_number = false) {
-		m_PossibleNumber.push_back(newPossibleNumber);
-	}
 	
 }
 
@@ -94,14 +80,10 @@ void Cell::delete_PossibleNumber(int remove_PossibleNumber)
 {
 	for (unsigned int i = 0; i < m_PossibleNumber.size(); ++i)
 	{
-		if (m_PossibleNumber[i] == remove_PossibleNumber) {
-		
+		if (m_PossibleNumber[i] == remove_PossibleNumber)
 
 		m_PossibleNumber.erase(m_PossibleNumber.begin() + i);
-		 	
-		}
 
-		
 	}
 }
 

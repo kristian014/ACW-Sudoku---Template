@@ -2,6 +2,7 @@
 #include <vector>
 
 using namespace std;
+
 class Cell
 {
 public:
@@ -14,7 +15,7 @@ public:
 	int get_ReadValue()const;
 	bool Get__ReadValue_Validity()const;
 	int get_candidatecell_size() const;
-	int get_candidateNumberPosition(int index) const;
+	int get_candidateNumberPosition(int First_CandidateNumber) const;
 	
 
     

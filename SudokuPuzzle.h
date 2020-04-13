@@ -7,33 +7,33 @@
 #include <fstream>
 
 using namespace std;
+
+#define  m_Lenght 9
+
 // Add your code here
 
 class SudokuPuzzle {
 public:
-	SudokuPuzzle(void): m_Lenght(9), m_Blocksize(m_Lenght/3){}
-	~SudokuPuzzle(void);
+	SudokuPuzzle();
+	~SudokuPuzzle();
 	void solve (char filenameIn[]);
 
 private:
-	void Print_Sudoku_Row_Column_Block()const ;
+	//void Print_Sudoku_Row_Column_Block() ;
 
 	void readPuzzle(char filenameIn[]);
 	void DisplaySoduko_Solution()const;
 	void SolveSudoku();
 
-	void GetBoxIndex(const int row, const int column,  int* PointerTo_m_blockMatrix_and_Indexof_theSingleBlock)const;
+	void GetBoxIndex(const int row, const int column,  int* PointerTo_m_blockMatrix_pointer_value_Indexof_theSingleBlock)const;
 
-	CellGroup m_gridRows[9];
-	CellGroup m_gridColumns[9];
-	CellGroup m_gridBlocks[9];
 
-	
-	//int m_blockMatrix[2];
-	int m_Lenght;
-	int m_Blocksize = m_Lenght/3;
-	
+	CellGroup m_cellRows[9];
+	CellGroup m_CellColumns[9];
+	CellGroup m_CellBlocks[9];
+
+	bool solvepuzzle = false ;
+	int m_blockMatrix[2];
+
 	
 };
-template<class T>
-inline bool Range_Within_Rows(T LowerBound, T UpperBound, T Value) { return ((LowerBound < Value) && (Value < UpperBound)); }
