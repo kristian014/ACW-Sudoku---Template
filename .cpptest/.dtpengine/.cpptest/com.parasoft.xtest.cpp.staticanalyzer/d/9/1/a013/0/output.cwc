@@ -1,0 +1,40 @@
+<->
+<F>c:\users\krist\onedrive\desktop\gdrive\advance programming\sudoku - template\SudokuPuzzle.h
+<c>OOP-27
+<b>Class 'SudokuPuzzle' does not have explicitly defined assignment operator
+<l>15
+<k>7
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>c:\users\krist\onedrive\desktop\gdrive\advance programming\sudoku - template\CellGroup.h
+<c>MRM-49
+<b>Class 'CellGroup' shall declare a copy assignment operator
+<l>5
+<k>7
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>c:\users\krist\onedrive\desktop\gdrive\advance programming\sudoku - template\CellGroup.h
+<c>MRM-49
+<b>Class 'CellGroup' shall declare a copy constructor
+<l>5
+<k>7
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>c:\users\krist\onedrive\desktop\gdrive\advance programming\sudoku - template\Cell.h
+<c>OPT-13
+<b>Members 'm_PossibleNumber' of class 'Cell' are declared in suboptimal order for memory layout
+<l>9
+<k>7
+<s>false
+<N>
+<f>
+<L>0

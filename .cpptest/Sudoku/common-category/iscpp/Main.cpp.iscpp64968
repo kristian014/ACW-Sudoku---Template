@@ -1,0 +1,6 @@
+fileName=C:\Users\krist\OneDrive\Desktop\gdrive\Advance programming\Sudoku - Template\Main.cpp
+isCpp=
+compilerOpts=-I"C:\Program Files (x86)\Parasoft\C++test for Visual Studio\10.4\engine\runtime\include" /ZI /W3 /Od /EHsc /RTC1 /MDd /fp:precise /Gd /GS /Oy- /Gm- /DWIN32 /D_DEBUG /D_CONSOLE /D_UNICODE /DUNICODE /Zc:wchar_t /Zc:forScope /Zc:inline /WX- /nologo /FC /diagnostics:classic -DPARASOFT_CPPTEST -I.
+compilerId=vc_14_1
+workingDir=C:\Users\krist\OneDrive\Desktop\gdrive\Advance programming\Sudoku - Template\
+advancedOptionsHash=0

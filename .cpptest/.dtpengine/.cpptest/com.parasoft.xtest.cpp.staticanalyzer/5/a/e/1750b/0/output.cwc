@@ -1,0 +1,20 @@
+<->
+<F>C:\Users\krist\OneDrive\Desktop\gdrive\Advance programming\Sudoku - Template\SudokuPuzzle.cpp
+<c>INIT-14
+<b>Assignment in constructor 'SudokuPuzzle' found. Use constructor initialization list instead
+<l>10
+<k>2
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>c:\users\krist\onedrive\desktop\gdrive\advance programming\sudoku - template\SudokuPuzzle.h
+<c>OOP-27
+<b>Class 'SudokuPuzzle' does not have explicitly defined assignment operator
+<l>15
+<k>7
+<s>false
+<N>
+<f>
+<L>0

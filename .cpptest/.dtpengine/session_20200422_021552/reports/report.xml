@@ -1,0 +1,254 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ResultsSession buildId="2020-04-22" climode="true" execEnv="win32_x86" hasViols="true" id="1588464513185" lang="en_GB" machine="LAPTOP-8UDCB928" prjModule="Sudoku" project="" tag="500083 rule set" time="2020-04-22T02:15:55+01:00" toolDispName="C/C++test" toolId="c++test" toolName="DTP Engine for C/C++" toolVer="10.4.2" user="krist">
+   <TestConfig machine="LAPTOP-8UDCB928" name="500083 rule set" pseudoUrl="user://500083 rule set" user="krist" />
+   <Authors>
+      <Author id="dev1" name="krist" />
+   </Authors>
+   <Analyzers>
+      <Analyzer id="com.parasoft.xtest.cpp.analyzer.static.code" name="Parasoft C/C++ Code Analyzer" ver="10.4.2" />
+      <Analyzer id="com.parasoft.xtest.cpp.analyzer.desktop.files.in.scope" name="Helper Scope Analyzer for C/C++test Professional" ver="10.4.2" />
+      <Analyzer id="xtest" name="Scope Analyzer" ver="1" />
+      <Analyzer id="com.parasoft.xtest.cpp.analyzer.static.pattern" name="Parasoft C/C++ Static Analyzer" ver="10.4.2" />
+      <Analyzer id="com.parasoft.xtest.cpp.analyzer.static.flow" name="Parasoft C/C++ Flow Analyzer" ver="10.4.2" />
+      <Analyzer id="com.parasoft.xtest.cpp.analyzer.static.global" name="Parasoft C/C++ Global Static Analyzer" ver="10.4.2" />
+   </Analyzers>
+   <VersionInfos>
+      <StorageInfo ownerId="" resultId="ISetupResult" ver="1" ver10x="1" />
+      <StorageInfo ownerId="com.parasoft.xtest.checkers.api.standards" resultId="IMetricsViolation" ver="2" ver10x="1" />
+      <StorageInfo ownerId="" resultId="IExecutionViolation" ver="1" ver10x="1" />
+      <StorageInfo ownerId="com.parasoft.xtest.checkers.api.standards" resultId="IDupCodeViolation" ver="2" ver10x="1" />
+      <StorageInfo ownerId="com.parasoft.xtest.checkers.api.standards" resultId="IFlowAnalysisViolation" ver="2" ver10x="1" />
+      <StorageInfo ownerId="" resultId="IFunctionalViolation" ver="1" ver10x="1" />
+      <StorageInfo ownerId="com.parasoft.xtest.checkers.api.standards" resultId="ICodingStandardsViolation" ver="2" ver10x="1" />
+      <StorageInfo ownerId="" resultId="IUnitTestViolation" ver="1" ver10x="1" />
+   </VersionInfos>
+   <Goals tsks="2">
+      
+   </Goals>
+   <Scope>
+      <Repositories />
+      <Locations>
+         <Loc auth="krist" hash="2000600137" locRef="1" projId="Sudoku" projPath="/Sudoku" project="Sudoku" resProjPath="SudokuPuzzle.cpp" totLns="253" uri="file://LAPTOP-8UDCB928/C:/Users/krist/OneDrive/Desktop/gdrive/Advance%20programming/Sudoku%20-%20Template/SudokuPuzzle.cpp" />
+         <Loc auth="krist" hash="-137930110" locRef="2" projId="Sudoku" projPath="/Sudoku" project="Sudoku" resProjPath="SudokuPuzzle.h" totLns="44" uri="file://LAPTOP-8UDCB928/c:/users/krist/onedrive/desktop/gdrive/advance%20programming/sudoku%20-%20template/SudokuPuzzle.h" />
+      </Locations>
+   </Scope>
+   
+  <SetupProblems />
+
+   <CodingStandards ownerId="com.parasoft.xtest.checkers.api.standards" time="0:00:02">
+      <Projects>
+         <Project bdCheckedFiles="0" bdTotalFiles="0" checkedFiles="2" checkedLns="297" id="Sudoku" name="Sudoku" qfixErrs="0" suppErrs="0" totErrs="2" totFiles="2" totLns="297" />
+      </Projects>
+      
+      
+      <Rules>
+         <CategoriesList>
+            <Category authTot="0;" authUrg="0;" desc="Coding Conventions" name="CODSTA" rules="387" total="0">
+               <Category authTot="0;" authUrg="0;" desc="Coding Conventions for C++" name="CODSTA-CPP" rules="104" total="0">
+                  <Category authTot="0;" authUrg="0;" desc="UNKNOWN" name="CODSTA-CPP-06" rules="1" total="0" />
+               </Category>
+               <Category authTot="0;" authUrg="0;" desc="Coding Conventions for Modern C++" name="CODSTA-MCPP" rules="46" total="0" />
+            </Category>
+            <Category authTot="0;" authUrg="0;" desc="Exceptions" name="EXCEPT" rules="21" total="0" />
+            <Category authTot="1;" authUrg="1;" desc="Initialization" name="INIT" rules="19" total="1" />
+            <Category authTot="0;" authUrg="0;" desc="MISRA C 1998" name="MISRA" rules="60" total="0" />
+            <Category authTot="0;" authUrg="0;" desc="MISRA C 2004" name="MISRA2004" rules="215" total="0" />
+            <Category authTot="0;" authUrg="0;" desc="MISRA C++ 2008" name="MISRA2008" rules="324" total="0" />
+            <Category authTot="0;" authUrg="0;" desc="Memory and Resource Management" name="MRM" rules="58" total="0" />
+            <Category authTot="1;" authUrg="1;" desc="Object Oriented" name="OOP" rules="60" total="1">
+               <Category authTot="0;" authUrg="0;" desc="UNKNOWN" name="OOP-05" rules="1" total="0" />
+            </Category>
+            <Category authTot="0;" authUrg="0;" desc="Optimization" name="OPT" rules="42" total="0">
+               <Category authTot="0;" authUrg="0;" desc="UNKNOWN" name="OPT-13" rules="1" total="0" />
+            </Category>
+            <Category authTot="0;" authUrg="0;" desc="Possible Bugs" name="PB" rules="80" total="0" />
+            <Category authTot="0;" authUrg="0;" desc="Physical File Organization" name="PFO" rules="9" total="0" />
+            <Category authTot="0;" authUrg="0;" desc="Portability" name="PORT" rules="31" total="0" />
+            <Category authTot="0;" authUrg="0;" desc="Security" name="SECURITY" rules="51" total="0" />
+            <Category authTot="0;" authUrg="0;" desc="STL Best Practices" name="STL" rules="42" total="0" />
+            <Category authTot="0;" authUrg="0;" desc="Template" name="TEMPL" rules="16" total="0" />
+         </CategoriesList>
+         <RulesList>
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="CODSTA" desc="Local variables should not use the same names as member variables" id="CODSTA-44" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="CODSTA" desc="Parameters should not use the same names as member variables" id="CODSTA-45" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="CODSTA" desc="Do not declare the size of an array when the array is passed into a function as a parameter" id="CODSTA-15" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="CODSTA" desc="Do not define constants via #define" id="CODSTA-03" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="CODSTA" desc="Shift and bitwise operations should not be performed on operands of essentially signed or enum type" id="CODSTA-161_e" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="CODSTA" desc="The value of an expression shall not be assigned to an object with a narrower essential type" id="CODSTA-163_a" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="CODSTA" desc="Prefer const objects or enums to #defines for simple constants" id="CODSTA-37" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="CODSTA" desc="Do not use a #define that prevents the compiler from checking types" id="CODSTA-38" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="CODSTA" desc="If a pointer to a structure or union is never dereferenced within a translation unit, then the implementation of the object should be hidden" id="CODSTA-115" sev="4" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="CODSTA" desc="Avoid switch statements with only one case" id="CODSTA-41" sev="4" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="CODSTA-CPP" desc="Constructors allowing for conversion should be made explicit" id="CODSTA-CPP-04" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="CODSTA-CPP" desc="Do not use user-defined conversion functions" id="CODSTA-CPP-05" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="CODSTA-CPP" desc="The first operand of a conditional-operator shall have type bool" id="CODSTA-CPP-65" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="CODSTA-CPP" desc="Declare at least one constructor to prevent the compiler from doing so" id="CODSTA-CPP-19" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="CODSTA-CPP" desc="Have assignment operator returns a reference to *this; make assignment operator's return type a non-const reference to it's class' type" id="CODSTA-CPP-02" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="CODSTA-CPP" desc="Bitwise operators, comparison operators, logical operators, comma operator should be const" id="CODSTA-CPP-03" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="CODSTA-CPP" desc="Postfix increment and decrement should be implemented in terms of their prefix counterparts" id="CODSTA-CPP-07" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="CODSTA-CPP" desc="Avoid overloading logical operators AND, OR (&amp;&amp;, ||)" id="CODSTA-CPP-08" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="CODSTA-CPP" desc="Prefer C++-style casts" id="CODSTA-CPP-11" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="CODSTA-CPP" desc="If you'd like to support mixed-mode operations make operators a non-member functions" id="CODSTA-CPP-20" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="CODSTA-CPP" desc="Prefer non-member operators than member ones to support mixed-mode arithmetic" id="CODSTA-CPP-30" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="CODSTA-CPP" desc="Avoid dynamic_casts" id="CODSTA-CPP-35" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="CODSTA-CPP" desc="Conversion operator, operator->, operator(), operator[] should be const" id="CODSTA-CPP-38" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="CODSTA-CPP" desc="Declare reference parameters as const references whenever possible" id="CODSTA-CPP-43" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="CODSTA-CPP" desc="Have the non-const version call the const version of member function instead of duplicating the const version definition" id="CODSTA-CPP-44" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="CODSTA-CPP" desc="Do not define inline functions in source files" id="CODSTA-CPP-51" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="CODSTA-CPP" desc="Consider using the natural relationship between the assignment version of an operator and the stand-alone version" id="CODSTA-CPP-52" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="CODSTA-CPP" desc="Declare parameters or local variable as const whenever possible" id="CODSTA-CPP-53" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="CODSTA-CPP" desc="Member functions shall be declared const whenever possible" id="CODSTA-CPP-54" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="CODSTA-CPP" desc="Const member functions shall not return non-const pointers or references to class-data" id="CODSTA-CPP-77" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="CODSTA-CPP" desc="Avoid overloading comma operator &quot;,&quot;" id="CODSTA-CPP-80" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="CODSTA-CPP" desc="Classes which have only getters/setters (accessors/mutators) are not allowed" id="CODSTA-CPP-81" sev="4" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="CODSTA-CPP" desc="Prefer iostream.h to stdio.h" id="CODSTA-CPP-01" sev="5" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="CODSTA-CPP-06" desc="Avoid returning handles to class data from member functions" id="CODSTA-CPP-06-DOWNGRADED" origId="CODSTA-CPP-06" sev="5" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="CODSTA-MCPP" desc="User-conversion cast operators should be made explicit" id="CODSTA-MCPP-01" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="CODSTA-MCPP" desc="Prefer alias declarations to typedefs" id="CODSTA-MCPP-02" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="CODSTA-MCPP" desc="Prefer Scoped Enums to Unscoped Enums" id="CODSTA-MCPP-03" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="CODSTA-MCPP" desc="Declare overriding functions with 'override' specifier" id="CODSTA-MCPP-05" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="CODSTA-MCPP" desc="Declare copy constructor and copy assignment operators with the 'delete' specifier to prevent copying of class" id="CODSTA-MCPP-06_a" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="CODSTA-MCPP" desc="Declare copy constructor and copy assignment operators with the 'delete' specifier instead of using a base class with private methods to prevent copying of class" id="CODSTA-MCPP-06_b" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="CODSTA-MCPP" desc="Prefer 'nullptr' over 'NULL' or '0'(zero)" id="CODSTA-MCPP-04" sev="4" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="EXCEPT" desc="Never allow an exception to be thrown from a destructor, deallocation, and swap" id="EXCEPT-01" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="EXCEPT" desc="Throw by value, catch by reference" id="EXCEPT-02" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="EXCEPT" desc="Do not throw from within destructor" id="EXCEPT-03" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="INIT" desc="Do not initialize a reference to an object whose address can be changed" id="INIT-05" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="1;" authUrg="1;" cat="INIT" desc="All member variables should be initialized in constructor" id="INIT-06" sev="1" total="1" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="INIT" desc="Initialize static class members" id="INIT-09" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="INIT" desc="An assignment operator shall assign all data members" id="INIT-11" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="INIT" desc="List members in an initialization list in the order in which they are declared" id="INIT-10" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="INIT" desc="Avoid initialization order problems across translation units by replacing non-local static objects with local static objects" id="INIT-12" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="INIT" desc="Do not assume that members are initialized in any special order in constructors" id="INIT-13" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="INIT" desc="Prefer initialization to assignment in constructors" id="INIT-14" sev="5" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="MISRA" desc="All automatic variables shall have been assigned a value before being used" id="MISRA-030" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="MISRA2004" desc="Assignment operators shall not be used in expressions that yield a Boolean value" id="MISRA2004-13_1" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="MISRA2004" desc="Floating-point expressions shall not be tested for equality or inequality" id="MISRA2004-13_3" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="MISRA2004" desc="The controlling expression of a for statement shall not contain any objects of floating type" id="MISRA2004-13_4" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="MISRA2004" desc="A pointer parameter in a function prototype should be declared as pointer to const if the pointer is not used to modify the addressed object" id="MISRA2004-16_7" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="MISRA2004" desc="The address of an object with automatic storage shall not be returned from a function" id="MISRA2004-17_6_a" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="MISRA2004" desc="A function should be used in preference to a function-like macro" id="MISRA2004-19_7" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="MISRA2008" desc="Protected member functions shall not return non-const handles to class-data" id="MISRA2008-9_3_2_a" origId="OOP-12" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="MISRA2008" desc="Public member functions shall not return non-const handles to class-data" id="MISRA2008-9_3_2_b" origId="OOP-36" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="MRM" desc="Use the same form in corresponding calls to new/malloc and delete/free" id="MRM-06" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="MRM" desc="Do not invoke malloc/realloc for objects having constructors" id="MRM-08" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="MRM" desc="Avoid hiding the global new" id="MRM-32" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="MRM" desc="Declare a copy assignment operator for classes with dynamically allocated memory" id="MRM-37" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="MRM" desc="Declare a copy constructor for classes with dynamically allocated memory" id="MRM-38" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="MRM" desc="Never return a dereferenced local pointer initialized by new in this function scope" id="MRM-23" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="MRM" desc="Call delete on pointer members in destructors" id="MRM-33" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="MRM" desc="A copy constructor shall copy all data members and bases" id="MRM-41" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="MRM" desc="An assignment operator shall assign all data bases" id="MRM-43" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="MRM" desc="Adhere to convention when writing new and delete" id="MRM-12" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="MRM" desc="Adhere to convention when writing new" id="MRM-13" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="MRM" desc="If a class defines any overload of operator new, it should provide overloads of all three of plain, in-place, and non-throwing operator new" id="MRM-14" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="MRM" desc="If a class defines any overload of operator new[], it should provide overloads of all three of plain, in-place, and non-throwing operator new[]" id="MRM-15" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="MRM" desc="If a class defines any overload of operator delete, it should provide overloads of all three of plain, in-place, and non-throwing operator delete" id="MRM-16" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="MRM" desc="If a class defines any overload of operator delete[], it should provide overloads of all three of plain, in-place, and non-throwing operator delete[]" id="MRM-17" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="MRM" desc="Do not allocate memory and expect that someone else will deallocate it later" id="MRM-18" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="MRM" desc="Do not allocate memory and expect that someone else will deallocate it later" id="MRM-19" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="MRM" desc="Do not allocate memory and expect that someone else will deallocate it later" id="MRM-20" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="MRM" desc="Use objects to manage resources" id="MRM-21" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="MRM" desc="Use objects to manage resources" id="MRM-22" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="MRM" desc="Write operator delete if you write operator new" id="MRM-26" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="MRM" desc="Write operator delete[] if you write operator new[]" id="MRM-27" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="MRM" desc="Always provide new and delete together" id="MRM-28" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="MRM" desc="Always provide new[] and delete[] together" id="MRM-29" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="MRM" desc="Freed memory shouldn't be accessed under any circumstances" id="MRM-31" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="MRM" desc="Destructor should not be called manually" id="MRM-31_b" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="MRM" desc="Never provide brackets ([]) for delete when deallocating non-arrays" id="MRM-35" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="MRM" desc="Always provide empty brackets ([]) for delete when deallocating arrays" id="MRM-36" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="MRM" desc="Both copy constructor and copy assignment operator should be declared for classes with a nontrivial destructor" id="MRM-40_d" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="MRM" desc="Do not use calloc, malloc, realloc and free functions" id="MRM-46" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="MRM" desc="A copy constructor and a copy assignment operator shall be declared for classes that contain pointers to data items or nontrivial destructors" id="MRM-49" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="OOP" desc="Class cannot inherit other class more than once unless it is virtual inheritance" id="OOP-03" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="OOP" desc="Be wary about using multiple inheritance of classes that are not abstract interfaces" id="OOP-07" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="OOP" desc="Do not directly access global data from a constructor" id="OOP-08" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="OOP" desc="Avoid calling virtual functions from constructors" id="OOP-16" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="OOP" desc="Define a virtual destructor in classes used as base classes which have virtual functions" id="OOP-22" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="OOP" desc="Make destructors virtual in base classes" id="OOP-24" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="OOP" desc="A pointer to an abstract class shall not be converted to a pointer of a class that inherits from that abstract class" id="OOP-29" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="OOP" desc="Make base class destructors public and virtual, or protected and nonvirtual" id="OOP-31" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="OOP" desc="If a class destructor is called and the class has virtual functions it shall have a virtual destructor" id="OOP-38" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="OOP" desc="Casts from a base class to a derived class should not be performed on polymorphic types" id="OOP-49" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="OOP" desc="Avoid &quot;public&quot; data members" id="OOP-18" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="OOP" desc="Avoid 'protected' data members" id="OOP-19" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="OOP" desc="If a class has virtual functions it shall have a virtual destructor" id="OOP-23" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="OOP" desc="Down casting (casting from base to derived class) shall not be allowed" id="OOP-35" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="OOP" desc="Do not derive functions with the same name from more than one base class" id="OOP-04" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="OOP" desc="For multiple inheritance use virtual common base class" id="OOP-06" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="OOP" desc="Avoid using the friend mechanism" id="OOP-11" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="OOP" desc="Protected member function shall not return non-const handles to private class-data" id="OOP-12" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="OOP" desc="Do not redefine an inherited virtual function with a different default parameter value" id="OOP-13" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="OOP" desc="Avoid declaring virtual functions inline" id="OOP-25" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="1;" authUrg="1;" cat="OOP" desc="Declare copy assignment operator for class with reference or const members" id="OOP-27" sev="3" total="1" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="OOP" desc="Never redefine an inherited nonvirtual function" id="OOP-32" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="OOP" desc="Do not redefine an inherited nonvirtual function with template parameter" id="OOP-33" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="OOP" desc="Public member functions shall not return non-const handles to private/protected class-data" id="OOP-36" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="OOP" desc="Member functions declared in derived class should not hide functions declared in base classes" id="OOP-53" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="OOP" desc="Write a using declaration to redeclare overloaded functions" id="OOP-17" sev="4" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="OOP" desc="Check for assignment to self in operator=" id="OOP-34" sev="4" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="OOP" desc="Consider use composition instead of private inheritance" id="OOP-14" sev="5" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="OOP" desc="Prefer composition when don't need inheritance" id="OOP-37" sev="5" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="OOP-05" desc="Do not use multiple inheritance" id="OOP-05-DOWNGRADED" origId="OOP-05" sev="5" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="OPT" desc="Eliminate unused parameters" id="OPT-03" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="OPT" desc="Prefer &quot;a @= b&quot; than &quot;a = a @ b&quot;, where &quot;@&quot; is +, -, *, /, %" id="OPT-07" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="OPT" desc="Prefer &quot;a @= b&quot; than &quot;a = a @ b&quot;, where &quot;@&quot; is &amp;, |, ^, &lt;&lt;, >>" id="OPT-08" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="OPT" desc="Pass objects by reference instead of by value" id="OPT-14" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="OPT" desc="Global function containing recursion, loops or virtual function call should not be inlined" id="OPT-16" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="OPT" desc="Member function containing recursion or loops should not be inlined" id="OPT-18" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="OPT" desc="Consider using op= instead of stand-alone op" id="OPT-19" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="OPT" desc="Postpone variable definitions as long as possible" id="OPT-20" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="OPT" desc="Every switch statement shall have at least two switch-clauses" id="OPT-39" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="OPT" desc="Avoid unused local variables" id="OPT-02" sev="4" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="OPT" desc="Trivial accessor and mutator functions should be inlined" id="OPT-23" sev="4" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="OPT" desc="Trivial forwarding functions should be inlined" id="OPT-24" sev="4" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="OPT" desc="Remove unnecessary '== true'" id="OPT-09" sev="5" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="OPT" desc="Consider returning object by reference instead of by value" id="OPT-33" sev="5" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="OPT-13" desc="Declare member variables in the descending size order" id="OPT-13-DOWNGRADED" origId="OPT-13" sev="5" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="PB" desc="Do not call delete on non-pointers" id="PB-13" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="PB" desc="Properly terminate character strings" id="PB-21" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="PB" desc="The class object should be passed by reference if the class has non-static pointers and has no declared copy constructor" id="PB-23" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="PB" desc="Operators should not return value by reference" id="PB-09" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="PB" desc="A string literal shall not be modified" id="PB-27" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="PB" desc="Don't treat arrays polymorphically" id="PB-10" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="PB" desc="Avoid overloading class methods on a pointer and a numerical type" id="PB-18" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="PB" desc="Do not create inline non-member functions that contain local static data" id="PB-19" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="PB" desc="An element of an object shall not be initialized more than once" id="PB-69" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="PFO" desc="Use mechanism that prevents multiple inclusion of the file i.e. include guards or &quot;#pragma once&quot; preprocessor directive" id="PFO-08" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="PORT" desc="Don't use hard coded value of offset in structures" id="PORT-03" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="SECURITY" desc="Never use gets()" id="SECURITY-16" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="STL" desc="When calling swap, employ a using declaration for std::swap, then call swap without namespace qualification" id="STL-40" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="STL" desc="Do not declare the non-member to be an overloading of std::swap" id="STL-41" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="STL" desc="Member version of swap should never throw exceptions" id="STL-42" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="TEMPL" desc="Define non-member functions inside templates when type conversions are desired" id="TEMPL-02" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="TEMPL" desc="In template global functions use 'typename' to identify nested dependent type names" id="TEMPL-04" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="TEMPL" desc="In template classes use 'typename' to identify nested dependent type names" id="TEMPL-05" sev="3" total="0" />
+         </RulesList>
+         <SeverityList>
+            <Severity authTot="1;" authUrg="1;" id="1" total="1" />
+            <Severity authTot="1;" authUrg="1;" id="3" total="1" />
+         </SeverityList>
+      </Rules>
+      
+  <Supps />
+
+      
+  <StdViols>
+    <StdViol msg="Constructor does not initialize members: 'Check_NumberGoing_IntotheLoop'" ln="8" locFile="/Sudoku/SudokuPuzzle.cpp" locStartln="8" sev="1" auth="krist" locRef="1" rule="INIT-06" lnHash="-1795053417" rule.header="All member variables should be initialized in constructor" tool="c++test" lineHash="-1795053417" locStartPos="14" analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" lang="cpp" locEndPos="15" locType="sr" urgent="true" hash="2000600137" locEndLn="8" goals="1," />
+    <StdViol msg="Class 'SudokuPuzzle' does not have explicitly defined assignment operator" ln="15" locFile="/Sudoku/SudokuPuzzle.h" locStartln="15" sev="3" auth="krist" locRef="2" rule="OOP-27" lnHash="-989718888" rule.header="Declare copy assignment operator for class with reference or const members" tool="c++test" lineHash="-989718888" locStartPos="6" analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" lang="cpp" locEndPos="7" locType="sr" urgent="true" hash="-137930110" locEndLn="15" goals="1," />
+  </StdViols>
+
+      <TestedFilesDetails>
+         <Total name="Total (Suppressed)" supp="0" total="2">
+            <Project id="Sudoku" name="Sudoku" supp="0" total="2">
+               <Res loc="/Sudoku/SudokuPuzzle.cpp" locRef="1" locType="sr" name="SudokuPuzzle.cpp" supp="0" total="1" />
+               <Res loc="/Sudoku/SudokuPuzzle.h" locRef="2" locType="sr" name="SudokuPuzzle.h" supp="0" total="1" />
+            </Project>
+         </Total>
+      </TestedFilesDetails>
+   </CodingStandards>
+   <Statistics>
+      
+   </Statistics>
+</ResultsSession>

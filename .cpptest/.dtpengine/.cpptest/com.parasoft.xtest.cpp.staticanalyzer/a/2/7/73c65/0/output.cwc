@@ -1,0 +1,130 @@
+<->
+<F>C:\Users\krist\OneDrive\Desktop\gdrive\Advance programming\Sudoku - Template\Cell.cpp
+<c>OPT-24
+<b>Function 'get_candidateNumberPosition' is not inlined
+<l>27
+<k>11
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Users\krist\OneDrive\Desktop\gdrive\Advance programming\Sudoku - Template\Cell.cpp
+<c>OPT-24
+<b>Function 'get_candidatecell_size' is not inlined
+<l>35
+<k>11
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Users\krist\OneDrive\Desktop\gdrive\Advance programming\Sudoku - Template\Cell.cpp
+<c>INIT-14
+<b>Assignment in constructor 'Cell' found. Use constructor initialization list instead
+<l>6
+<k>2
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Users\krist\OneDrive\Desktop\gdrive\Advance programming\Sudoku - Template\Cell.cpp
+<c>INIT-14
+<b>Assignment in constructor 'Cell' found. Use constructor initialization list instead
+<l>7
+<k>2
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Users\krist\OneDrive\Desktop\gdrive\Advance programming\Sudoku - Template\Cell.cpp
+<c>INIT-14
+<b>Assignment in constructor 'Cell' found. Use constructor initialization list instead
+<l>19
+<k>2
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Users\krist\OneDrive\Desktop\gdrive\Advance programming\Sudoku - Template\Cell.cpp
+<c>INIT-14
+<b>Assignment in constructor 'Cell' found. Use constructor initialization list instead
+<l>20
+<k>2
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>c:\users\krist\onedrive\desktop\gdrive\advance programming\sudoku - template\Cell.h
+<c>OPT-13
+<b>Members 'm_PossibleNumber' of class 'Cell' are declared in suboptimal order for memory layout
+<l>9
+<k>7
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Users\krist\OneDrive\Desktop\gdrive\Advance programming\Sudoku - Template\Cell.cpp
+<c>OPT-23
+<b>Getter/setter method 'get_ReadValue' is not inlined
+<l>43
+<k>11
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Users\krist\OneDrive\Desktop\gdrive\Advance programming\Sudoku - Template\Cell.cpp
+<c>OPT-23
+<b>Getter/setter method 'Get__ReadValue_Validity' is not inlined
+<l>58
+<k>12
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Users\krist\OneDrive\Desktop\gdrive\Advance programming\Sudoku - Template\Cell.cpp
+<c>OPT-23
+<b>Getter/setter method 'set_value' is not inlined
+<l>48
+<k>12
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Users\krist\OneDrive\Desktop\gdrive\Advance programming\Sudoku - Template\Cell.cpp
+<c>OPT-23
+<b>Getter/setter method 'set_ReadValue_Validity' is not inlined
+<l>53
+<k>12
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Users\krist\OneDrive\Desktop\gdrive\Advance programming\Sudoku - Template\Cell.cpp
+<c>OPT-24
+<b>Function 'get_candidatecell_size' is not inlined
+<l>35
+<k>11
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Users\krist\OneDrive\Desktop\gdrive\Advance programming\Sudoku - Template\Cell.cpp
+<c>OPT-24
+<b>Function 'get_candidateNumberPosition' is not inlined
+<l>27
+<k>11
+<s>false
+<N>
+<f>
+<L>0

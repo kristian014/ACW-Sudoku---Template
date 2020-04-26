@@ -9,6 +9,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "solutionoutputfiles", "solu
 	ProjectSection(SolutionItems) = preProject
 		sudoku.txt = sudoku.txt
 		sudoku_puzzle.txt = sudoku_puzzle.txt
+		sudoku_puzzle2.txt = sudoku_puzzle2.txt
+		sudoku_puzzle3.txt = sudoku_puzzle3.txt
+		sudoku_puzzle4.txt = sudoku_puzzle4.txt
+		sudoku_puzzle5.txt = sudoku_puzzle5.txt
+		sudoku_puzzle6.txt = sudoku_puzzle6.txt
+		sudoku_puzzle8.txt = sudoku_puzzle8.txt
 		sudoku_solution.txt = sudoku_solution.txt
 	EndProjectSection
 EndProject
@@ -28,5 +34,14 @@ Global
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F6C017CC-B9CF-442A-B1D0-C8851FDA879C}
+	EndGlobalSection
+	GlobalSection(Performance) = preSolution
+		HasPerformanceSessions = true
+	EndGlobalSection
+	GlobalSection(Performance) = preSolution
+		HasPerformanceSessions = true
+	EndGlobalSection
+	GlobalSection(Performance) = preSolution
+		HasPerformanceSessions = true
 	EndGlobalSection
 EndGlobal

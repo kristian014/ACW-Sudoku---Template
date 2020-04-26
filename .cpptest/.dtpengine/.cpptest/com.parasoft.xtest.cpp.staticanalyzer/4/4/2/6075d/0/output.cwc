@@ -1,0 +1,50 @@
+<->
+<F>c:\users\krist\onedrive\desktop\gdrive\advance programming\sudoku - template\CellGroup.h
+<c>MRM-40_d
+<b>Class CellGroup has a non-trivial destructor, but no copy constructor nor copy assignment operator
+<l>5
+<k>7
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>c:\users\krist\onedrive\desktop\gdrive\advance programming\sudoku - template\CellGroup.h
+<c>MRM-49
+<b>Class 'CellGroup' shall declare a copy assignment operator
+<l>5
+<k>7
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>c:\users\krist\onedrive\desktop\gdrive\advance programming\sudoku - template\CellGroup.h
+<c>MRM-49
+<b>Class 'CellGroup' shall declare a copy constructor
+<l>5
+<k>7
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Users\krist\OneDrive\Desktop\gdrive\Advance programming\Sudoku - Template\CellGroup.cpp
+<c>OPT-23
+<b>Getter/setter method 'SetCell' is not inlined
+<l>22
+<k>18
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>c:\users\krist\onedrive\desktop\gdrive\advance programming\sudoku - template\Cell.h
+<c>OPT-13
+<b>Members 'm_PossibleNumber' of class 'Cell' are declared in suboptimal order for memory layout
+<l>9
+<k>7
+<s>false
+<N>
+<f>
+<L>0
